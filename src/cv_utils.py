@@ -30,8 +30,8 @@ def add_text(frame, text, font_color, pos=(50, 50), font=cv.FONT_HERSHEY_SIMPLEX
 
 
 def create_prime_frame(size):
-    frame = create_colored_frame(size, BLACK_COLOR)
-    add_text(frame, "Black text here", WHITE_COLOR, (25, 50))
+    frame = create_colored_frame(size, WHITE_COLOR)
+    add_text(frame, "Black text here", BLACK_COLOR, (25, 50))
 
     return frame
 
