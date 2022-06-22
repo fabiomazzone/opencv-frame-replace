@@ -1,0 +1,6 @@
+videos
+.vscode
+.git
+.DS_Store
+output
+__pycache__
